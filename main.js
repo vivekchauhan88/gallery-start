@@ -5,7 +5,7 @@ for (let i = 1; i <= 5; i++) {
 	img.src = `images/pic${i}.jpg`;
 	thumbBar.appendChild(img);
 	img.onclick = () => {
-		// alert(`pic${i} clicked!`);
+		alert(`pic${i} clicked!`);
 		const displayedImage =
 			document.getElementsByClassName('displayed-img')[0];
 		displayedImage.src = `images/pic${i}.jpg`;
